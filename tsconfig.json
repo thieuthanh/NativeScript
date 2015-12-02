@@ -659,6 +659,8 @@
         "ui/web-view/web-view.ios.ts",
         "utils/debug.d.ts",
         "utils/debug.ts",
+        "utils/module-loader.d.ts",
+        "utils/module-loader.ts",
         "utils/module-merge.ts",
         "utils/number-utils.ts",
         "utils/types.d.ts",

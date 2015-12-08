@@ -7,8 +7,9 @@ export function registerModule(name: string, loader: ModuleLoader): void {
 
 export function load(name: string): any {
     const loader = modules.get(name);
-    if (loader)
+    if (loader) {
         return loader();
-    else
+    } else {
         return require(name);
+    }
 }
